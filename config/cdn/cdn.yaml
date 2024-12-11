@@ -1,0 +1,5 @@
+cdn:
+  rules:
+    - name: path-rule
+      when: { reqProperty: path, equalxys: /block-me }
+      action: block
